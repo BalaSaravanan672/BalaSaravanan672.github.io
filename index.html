@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Display</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="choice">
+        <p class="select-text">Select your choice</p>
+    </div>
+
+    <div class="tabs">
+        <button class="tablink" onclick="openCategory('men')">&#x1F468; Men</button>
+        <button class="tablink" onclick="openCategory('women')">&#x1F469; Women</button>
+        <button class="tablink" onclick="openCategory('kids')">&#x1F9D2; Kids</button>
+    </div>
+
+    <div id="men" class="tabcontent">
+        <!-- Product cards for Men category -->
+    </div>
+
+    <div id="women" class="tabcontent">
+        <!-- Product cards for Women category -->
+    </div>
+
+    <div id="kids" class="tabcontent">
+        <!-- Product cards for Kids category -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
